@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    width: 45%;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+
+.nav-links ul li:hover{
+    transform: translateY(-1px);
+    box-shadow:white 0px 20px 30px -10px;
+    color: red
+
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*margin-top: 4%;*/
+    margin: 4%;
+    
+}
+.text-container{
+    display:flex;
+    height: 100%;
+    width: 45%;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 5%;
+    margin: 0;
+    
+}
+
+.text-container h1{
+    font-size: 140px;
+    margin:0;
+}
+
+.text-container h2{
+    font-size: 50px;
+    margin: 0;
+}
+
+.button-container{
+    margin-top:3%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.button-container button{
+    width: 180px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    background-color: red;
+    color:white;
+    border:none;
+}
+
+
+
+.button-container button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: translateY(-4px);
+    background-color:black;
+    color: red;
+}
+img{
+    width: 585px;
+height: 589px;
+}
+
+
+/*portfolio page */
+
+.biggest-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:4%;
+    margin-right:4%;
+}
+#port-title{
+    font-size: 60px
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.all-video-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:33%;
+}
+
+.video-container{
+    border: black solid 3px;
+    height: 14rem;
+    width: 26rem;
+    background-color: red;
+}
+
+.discription{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
